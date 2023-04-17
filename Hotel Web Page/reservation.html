@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reservation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./reservation.css">
+</head>
+<style type="text/css">
+	.table{
+		margin-left: 500px;
+		padding-bottom: 5px;
+		padding-top: 7px;
+	}
+</style>
+<body>
+	<header>
+		<div class="main">
+				<ul>
+					<li><a href="home.html">Home</li></a>
+					<li><a href="rooms.html">Rooms</li></a>
+					<li><a href="about.html">About</li></a>
+					<li><a href="events.html">Events</li></a>
+					<li><a href="reservation.html">Reservation</li></a>
+					<li><a href="contacts.html">Contacts</li></a>
+				</ul>
+		</div>
+		<div class="title">	
+			
+			<h1>Reservations</h1>
+			
+		</div>
+	</header> 
+	<form method="post" action="reservation.php">
+	<div class="table">
+		<table cellspacing="10px">
+			<tr>
+				<td>Name</td>
+				<td>Phone</td>
+			</tr>
+			<tr>
+				<td><input type="text" class="field"  name="username"></td>
+				<td><input type="text" class="field"  name="phone"></td>
+			</tr>
+			<tr>
+				<td colspan="2">Email</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" style="width: 400px" class="field" name="email"></td>
+			</tr>
+			<tr>
+				<td>Date Check In</td>
+				<td>Date Check Out</td>
+			</tr>
+			<tr>
+				<td><input type="date" class="field" name="checkindate"></td>
+				<td><input type="date" class="field" name="checkoutdate"></td>
+			</tr>
+			<tr>
+				<td>Adults</td>
+				<td>Children</td>
+			</tr>
+			<tr>
+				<td><input type="int" style="width: 100px" class="field" name="adults"></td>
+				<td><input type="int" style="width: 100px" class="field" name="children"></td>
+			</tr>
+			<tr>
+				<td colspan="2">Notes</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="text" style="height: 200px; width: 400px;" class="field" name="notes"></td>
+			</tr>
+
+			<tr>
+			<td></td>
+			<td><input type="submit" class="button" value="Reserve"></td>
+			</tr>
+		</table>
+	
+	</div>
+	</form>
+</body>
+</html>

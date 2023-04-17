@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Heritage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link rel="stylesheet" type="text/css" href="home.css">
+</head>  
+<style type="text/css">
+	@media only screen  and (min-width : 768px) {
+		/* desktop */
+		
+		.header {width: 100%;}
+		.body {width: 100%;}
+}
+}
+	@media only screen  and (min-width : 600px) {
+		/* laptop */
+		
+		.header {width: 100%;}
+		.body {width: 100%;}
+}
+	@media only screen  and (min-width : 400px) {
+		/* mobile */
+	
+		.header {width: 100%;}
+		.body {width: 100%;}
+}
+
+</style>
+<body id="body">
+	<header>
+		<div class="main">
+			<ul>
+				<li><a href="home.html">Home</li></a>
+				<li><a href="rooms.html">Rooms</li></a>
+				<li><a href="about.html">About</li></a>
+				<li><a href="events.html">Events</li></a>
+				<li><a href="reservation.html">Reservation</li></a>
+				<li><a href="contacts.html">Contacts</li></a>
+			</ul>
+		</div>
+		<div class="title">	
+			<p>Welcome to 5 <img src="images/star.png" alt="star" style="width: 17px;height: 17px"> hotel</p>
+			<h1>HERITAGE</h1>
+			<p>The Best place for you to Stay</p>
+		</div>
+	</header>
+	<form method="post" action="home.php">
+	<div class="table">
+	<table cellspacing="10px">
+		<tr>
+			<td class="tablec">Check in</td>
+			<td class="tablec">Check out</td>
+			<td class="tablec">Adults</td>
+			<td class="tablec">Children</td>
+			<td rowspan="2"><input type="submit" name="submitButton" value="Check availability">
+			<br><br>
+			<input type="reset" name="clearButton" value="clear"></td>	
+		</tr>
+		<tr>
+			<td><input type="date" class="field" name="checkindate" ></td>
+			<td><input type="date" class="field" name="checkoutdate"></td>
+			<td>
+				<select name="adults" class="field">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="4+">4+</option>
+				</select>
+			</td>
+			<td>
+				<select name="children" class="field">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="4+">4+</option>
+				</select>
+			</td>	
+		</tr>
+	</table>
+	</div>
+	</form>
+
+	<div class="content">
+		<p>Experience Home with us. Your unforgettable getaway.</p>
+	</div>
+<!--	<div class="card">
+		<div class="card-header">Header</div>
+		<div class="card-content">Content</div>
+		<div class="card-footer">Footer</div>
+		
+	</div> -->
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/9.jpg); 
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: fixed;
+	background-color: black;
+	overflow: hidden ;
+	top:0;
+	width: 100%;
+}
+
+ul li{
+	float: left;
+}
+
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #cdcdcd;
+}
+
+.title{
+	position: absolute;
+	left: 50%;
+	margin-top: 400px;
+	transform: translate(-50%,-50%);
+	line-height: 20px;
+}
+
+.title h1{
+	padding: none;
+	color: #fff;
+	font-size: 10vh;
+}
+
+
+.button{
+	background-color: #ffa500;
+	font-style: bold;
+	font-size: 20px;
+	border-radius: 20px;
+	padding: 7px;
+	border: solid #ffa500;
+}
+
+.field{
+	border-width: 4px;
+	border: solid grey;
+	border-radius: 5px;
+	padding: 10px;
+	
+}
+
+.button:hover{
+	background-color: #e69500;
+	border: solid #ebedeb;
+}
+
+.table{
+	margin-top: 100px;
+	border: solid #ebedeb;
+	padding: 10px;
+	width: 480px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	background-color: #f2f2f2;
+	margin-left: 200px;
+}
+
+.container{
+	padding-left: 200px;
+	padding-right: 200px;
+	font-size: 35px;
+	font-family: Brush Script MT;
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+<header>
+  <div class="main">
+      <ul>
+        <li><a href="home.html">Home</li></a>
+        <li><a href="rooms.html">Rooms</li></a>
+        <li><a href="about.html">About</li></a>
+        <li><a href="events.html">Events</li></a>
+        <li><a href="reservation.html">Reservation</li></a>
+        <li><a href="contacts.html">Contacts</li></a>
+      </ul>
+  </div>
+  <div class="title">	
+    
+    <h1>About</h1>
+    
+  </div>
+</header>
+	<hr>
+  <h1 class="city"></h1>
+<div class="container">
+	<p>Welcome to The Heritage, your number one source for all kinds of staying optionS . We're dedicated to giving you the very best of our service, with a focus on dependability, customer service and uniqueness.
+	Founded in 2017 by J.A.Ahluwalia , The Heritage has come a long way from its beginnings in a small stay room . When J.A. Ahluwalia first started out, his passion for management drove him to start something everygreen, and gave him the impetus to turn hard work and inspiration into to a booming online website. We now serve customers all over India.
+	<br><br>
+	We hope you enjoy our service as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.
+	
+	<br>
+	<br>
+	CEO, J.A.Ahluwalia</p>
+</div>
